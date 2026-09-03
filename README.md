@@ -1,7 +1,7 @@
 # Creature Stage Extender: Extended Edition
 **About**:
 - This mod increases the amount of DNA required to beat Creature Stage by a configurable amount.
-- This mod also delays events, nest migrations, and NPC creature evolutions by that same configurable amount.
+- It also delays meteor showers, UFO visits, rain, nest migrations and NPC evolutions by the same multiplier.
 - The available multipliers are:
   - 1.5x
   - 2x
