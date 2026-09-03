@@ -1,0 +1,10 @@
+key parent DramaEvents_Templates!CreatureEventsTemplate
+vector2 ActivationThreshold (900, 1350)
+uint32 ActivationType 2
+float CheckTime 20
+uint32 EventMask 1
+bool RequiresAvatar true
+float StormLevel 1
+float duration 90
+uint32 frequency 1
+uint32 type 5

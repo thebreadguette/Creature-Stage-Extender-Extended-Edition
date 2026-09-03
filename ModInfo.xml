@@ -1,0 +1,27 @@
+<mod displayName="Creature Stage Extender: Extended Edition" 
+    unique="Creature Stage Extender Extended Edition" 
+    description="Increases the DNA required to beat Creature Stage, as well as delays events, nest migrations and NPC creature evolutions accordingly." 
+    installerSystemVersion="1.0.1.2" 
+    hasCustomInstaller="true" 
+    isExperimental="false" 
+    dllsBuild="2.5.20">
+    <componentGroup 
+        unique="multipliers" 
+        displayName="Choose a length multiplier">
+	    <component unique="1.5x" 
+            displayName="1.5x Creature Stage" 
+            description="This increases the required DNA by 50%." 
+            game="GalacticAdventures" 
+            defaultChecked="false">!!!!!!!1.5xCreature.package</component>
+        <component unique="2x" 
+            displayName="2x Creature Stage" 
+            description="This doubles the required DNA." 
+            game="GalacticAdventures" 
+            defaultChecked="false">!!!!!!!2xCreature.package</component>
+        <component unique="4x" 
+            displayName="4x Creature Stage" 
+            description="This quadruples the required DNA." 
+            game="GalacticAdventures" 
+            defaultChecked="false">!!!!!!!4xCreature.package</component>
+	</componentGroup>
+</mod>

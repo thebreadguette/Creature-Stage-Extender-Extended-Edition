@@ -1,0 +1,38 @@
+key parent DramaEvents_Templates!CreatureEventsTemplate
+vector2 ActivationThreshold (900, 1000)
+uint32 ActivationType 2
+float CheckTime 10
+uint32 EventMask 1
+uint32s MeteorEffects
+	0x6b5caf79
+	0x81dfbbc1
+end
+float MeteorImpactDamage 0.5
+float MeteorImpactRange 2
+float MeteorImpactStunTime 3
+floats MeteorInitialDelay
+	0
+	9
+end
+vector2s MeteorSpawnDelayRange
+	(0, 0.1)
+	(0.1, 0.5)
+end
+float MeteorSpawnHeight 80
+floats MeteorStrikeRange
+	1
+	30
+end
+int32s NumMeteorStrikes
+	1
+	200
+end
+bool RequiresAvatar true
+float duration 25
+uint32 frequency 1
+uint32 type 3
+floats 0x8A788159
+	130
+	15
+end
+float 0xB753F503 20
